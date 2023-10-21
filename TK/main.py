@@ -75,16 +75,6 @@ PASTE = simple_key_sequence(
 
 EGG_PLANT = unicode_string_sequence('🍆')
 
-ALT_TAB = simple_key_sequence(
-    (
-        KC.LALT(no_release=True),
-        KC.MACRO_SLEEP_MS(30),
-        KC.TAB,
-        KC.MACRO_SLEEP_MS(1000),
-
-    )
-)
-
 DESKTOP = simple_key_sequence(
     (
         KC.LGUI(no_release=True),
